@@ -1,0 +1,37 @@
+add_catch(test_image_p
+        test.cpp
+        cmd_parser.cpp
+        cmd_parser.h
+        bit_map.cpp
+        bit_map.h
+        filter_pipeline_factory.cpp
+        filter_pipeline_factory.h
+        base_filter.cpp
+        base_filter.h
+        app.cpp
+        app.h
+        filter_factories.cpp
+        filter_factories.h
+        utils.cpp
+        utils.h
+        ip_exception.cpp
+        ip_exception.h)
+
+add_executable(image_processor
+        main.cpp
+        cmd_parser.cpp
+        cmd_parser.h
+        bit_map.cpp
+        bit_map.h
+        filter_pipeline_factory.cpp
+        filter_pipeline_factory.h
+        base_filter.cpp
+        base_filter.h
+         app.cpp
+        app.h
+        filter_factories.cpp
+        filter_factories.h
+        utils.cpp
+        utils.h
+        ip_exception.cpp
+        ip_exception.h)
